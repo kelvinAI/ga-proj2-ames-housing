@@ -1,8 +1,8 @@
 # ga-proj2-ames-housing
 
-In this notebook we will explore the AMES housing dataset and attempt to build a machine learning model that will predict the price of a house given the set of features. As the provided features a large, we will attempt to simplify the model without sacrificing the performance of the machine learning model.
+In this notebook we will explore the AMES housing dataset and attempt to build a machine learning model that will predict the price of a house given a set of features. As the provided features are many (80), we will attempt to simplify the model without sacrificing the performance of the machine learning model.
 
-The general steps performed for this experiment outlined below:
+The general steps performed for building the model are outlined below:
 
 1  Importing and perform Exploratory Data Analysis
   - 1.1  Import necessary libraries and data into environment
@@ -33,5 +33,6 @@ The general steps performed for this experiment outlined below:
   - 4.10  Final Model : Consider only the top 25 features selected by lasso CV
   - 4.11  Baseline LR model with 25 features
 5  Conclusion
-
+  - 5.1 What are the best predictors for house sale price?
 6  Generate predictions on final test set
+  - 6.1 Generate predictions on test set and submission to Kaggle
