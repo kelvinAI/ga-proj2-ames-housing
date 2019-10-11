@@ -1,4 +1,4 @@
-# ga-proj2-ames-housing
+# Project: AMES House price prediction
 
 In this notebook we will explore the AMES housing dataset and attempt to build a machine learning model that will predict the price of a house given a set of features. As the provided features are many (80), we will attempt to simplify the model without sacrificing the performance of the machine learning model.
 
